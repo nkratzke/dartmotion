@@ -25,6 +25,7 @@ h1 {
 }
 
 #over {
+    position: relative;
     margin: 50pt;
     position: relative;
     display: none;
@@ -33,7 +34,6 @@ h1 {
     font-size: 4em;
     z-index: 100;
 }
-
 
 #area {
     position: fixed;
@@ -68,14 +68,11 @@ h1 {
 }
 
 #start {
-    position: fixed;
+    position: relative;
     z-index: 100;
-    margin: auto;
-    border-radius: 5em;
-    width: 200px;
-    padding: 0.75em;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: lightgray;
+    margin: 0.5em;
+    color: transparent;
+    text-shadow: 0px 0px 5px rgba(200, 200, 200, 1);
     text-align: center;
     font-size: 2em;
 }

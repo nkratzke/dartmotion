@@ -220,11 +220,6 @@ class MotionView {
 
     final round = "${this.size}px";
 
-    final width = this.start.clientWidth;
-    final height = this.start.clientHeight;
-    this.start.style.top = "${(this.height - 1.5 * height).floor()}px";
-    this.start.style.left = "${(this.width / 2 - width / 2).floor()}px";
-
     this.area.style.width="${a.width}px";
     this.area.style.height="${a.width}px";
     this.area.style.borderRadius=round;

@@ -43,7 +43,7 @@ void main() {
 
   // (Re)start button handler
   //
-  start.onClick.listen((ev) {
+  querySelector('body').onClick.listen((ev) {
     area.position(view.center_x, view.center_y);
     ball.position(view.center_x, view.center_y);
     ball.grow(-1000.0); // Shrink ball to target size
