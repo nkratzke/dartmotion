@@ -17,5 +17,5 @@ You can play this game on your mobile device using this QR code:
 
 <img src='web/qr.png' />
 
-This demo application has been mainly realized for demonstration purposes in the
+This demo application has been mainly realized for demonstration purposes for a
 Webtech course (Computer Science Study Programme) at Lübeck University of Applied Sciences, Germany.
