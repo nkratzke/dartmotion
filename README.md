@@ -1,14 +1,13 @@
 # Dart in motion
 
 A simple demonstration how to use device orientation events to
-implement the Shadow Hunter game.
+implement the Shadow Hunter game. It demonstrates how to use
 
-It demonstrates how to use
-
-- absolute/fixed positioning of Html elements
+- absolute/fixed positioning of Html elements,
+- only DOM-tree manipulations,
 - and device orientation events
 
-to realize a demo application. The main interaction method
+to realize an interactive Html based and single page demo application. The main interaction method
 makes use of the device orientation of a mobile device.
 
 The [game](http://www.nkode.io/assets/webtech/demos/motion)
