@@ -1,9 +1,14 @@
 import 'dart:html';
-import 'MotionView.dart';
 import 'dart:async';
 import 'dart:math';
 
+import 'package:pwa/client.dart' as pwa;
+
+import 'MotionView.dart';
+
 void main() {
+
+  new pwa.Client(); // This makes this game offline playable in your browser using service workers
 
   final qr = querySelector('#qr');       // Html element that shows the QR code of the URL.
   final start = querySelector('#start'); // Html element to start the game.
