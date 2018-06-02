@@ -6,24 +6,14 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "orientation": "any",
+  "orientation": "portrait",
   "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "__mock_values__icons": [
+  "background_color": "#111111",
+  "icons": [
     {
-      "src": "launcher-icon-1x.png",
-      "sizes": "48x48",
-      "type": "image/png"
-    },
-    {
-      "src": "launcher-icon-2x.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "launcher-icon-4x.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "danger.png",
+      "type": "image/png",
+      "sizes": "640x612"
     }
   ]
 }
