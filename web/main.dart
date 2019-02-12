@@ -72,7 +72,7 @@ void main() {
 
     // Update handler (at 30 hz)
     //
-    final update = new Timer.periodic(new Duration(milliseconds: 30), (update) {
+    new Timer.periodic(new Duration(milliseconds: 30), (update) {
       if (!area.isInDanger(ball)) ball.grow(-1.0);
       if (area.isInDanger(ball)) ball.grow(-0.25);
       if (area.isOut(ball)) ball.grow(0.5);

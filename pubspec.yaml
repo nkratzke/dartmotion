@@ -1,24 +1,16 @@
 name: dartmotion
 description: A demonstration game to demonstrate device orientation using Dart.
-version: 0.2.0
+version: 0.3.0
 homepage: https://github.com/nkratzke/dartmotion
-author: Nane Kratzke <nane.kratzke@fh-luebeck.de>
+author: Nane Kratzke <nane.kratzke@th-luebeck.de>
 
 environment:
-  sdk: '>=1.20.1 <2.0.0'
+  sdk: '>=2.1.0 <3.0.0'
 
 dependencies:
-  pwa: '>=0.1.2 < 0.2.0'
+  pwa: '>=0.1.2'
 
 dev_dependencies:
-  browser: ^0.10.0
-  dart_to_js_script_rewriter: ^1.0.1
-
-transformers:
-- dart_to_js_script_rewriter
-
-# Uncomment the following in sdk 1.24+ to make pub serve
-# use dartdevc (webdev.dartlang.org/tools/dartdevc).
-#web:
-#  compiler:
-#    debug: dartdevc
+  build_runner: ^1.1.2
+  build_test: ^0.10.3
+  build_web_compilers: ^1.0.0
