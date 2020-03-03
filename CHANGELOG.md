@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1
+
+- Updated dependencies to Dart 2.7
+
 ## 0.3.0
 
 - Port to Dart 2 (and its new sound type system)
